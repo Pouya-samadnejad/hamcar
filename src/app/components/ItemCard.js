@@ -33,7 +33,7 @@ function ItemCard({ image, alt }) {
             <div>
               <div className="flex items-center gap-[12px] justify-between w-full sm:gap-6 sm:mb-4">
                 <h3 className="font-semibold text-sm sm:text-base">
-                  lg: آئودی ، R8
+                  آئودی ، R8
                 </h3>
                 <span className="bg-[#F7F7F7] rounded-md sm:px-2 px-1 py-1 text-[12px] text-[#85858F]sm:block hidden">
                   ۱۰ دقیقه پیش
