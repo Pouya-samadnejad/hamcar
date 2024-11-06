@@ -31,7 +31,7 @@ function ItemCard({ image, alt }) {
         <div className=" w-2/3 sm:my-5 my-2 flex flex-col justify-between">
           <div className="flex justify-between">
             <div>
-              <div className="flex items-center gap-[12px] justify-between w-full sm:gap-6 sm:mb-4">
+              <div className="flex items-center gap-[21px] justify-between w-full sm:gap-6 sm:mb-4">
                 <h3 className="font-semibold text-sm sm:text-base">
                   آئودی ، R8
                 </h3>
