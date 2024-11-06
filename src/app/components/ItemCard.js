@@ -31,17 +31,17 @@ function ItemCard({ image, alt }) {
         <div className=" w-2/3 sm:my-5 my-1 flex flex-col justify-between">
           <div className="flex justify-between">
             <div>
-              <div className="flex items-center gap-[19px] justify-between w-full sm:gap-6 sm:mb-4">
+              <div className="flex items-center gap-[29px] justify-between w-full sm:gap-6 sm:mb-4">
                 <h3 className="font-semibold text-sm sm:text-base">
                   آئودی ، R8
                 </h3>
                 <span className="bg-[#F7F7F7] rounded-md sm:px-2 px-1 py-1 text-[12px] text-[#85858F]sm:block hidden">
                   ۱۰ دقیقه پیش
                 </span>
-                <span className="bg-[#F7F7F7] rounded-md sm:px-2 px-1 py-1 text-[10px] text-[#85858F] ">
-                  دقایقی پیش
+                <span className=" sm:px-2  text-[10px] text-[#85858F] ">
+                  لحظاتی پیش
                 </span>
-                <div className="flex items-center  gap-2 sm:hidden mr-3">
+                <div className="flex items-center justify-end gap-2 sm:hidden mr-3">
                   <Image
                     src={VerifiedBadge}
                     alt="verified badge"
