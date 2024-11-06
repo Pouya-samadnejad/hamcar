@@ -8,7 +8,7 @@ import { BsShop } from "react-icons/bs";
 
 function ItemCard({ image, alt }) {
   return (
-    <div className="w-full  rounded-[18px] shadow-md sm:mb-4">
+    <div className="w-full  rounded-[18px] shadow-md mb-4">
       <div className="  flex gap-3  ">
         <div className=" h-fit w-1/3 sm:m-4 relative">
           <div className="sm:flex items-center rounded-full absolute bg-[#FFFFFF] text-[#606066] text-sm gap-2 px-2 top-2 right-2 font-light hidden">
@@ -18,7 +18,7 @@ function ItemCard({ image, alt }) {
           <Image
             src={image}
             alt={alt}
-            className="rounded-xl sm:hidden mt-3  "
+            className="rounded-xl sm:hidden  "
             width={120}
             height={96}
           />
@@ -28,7 +28,7 @@ function ItemCard({ image, alt }) {
             className="rounded-xl hidden sm:block "
           />
         </div>
-        <div className=" w-2/3 sm:my-5 my-2 flex flex-col justify-between">
+        <div className=" w-2/3 sm:my-5 my-1 flex flex-col justify-between">
           <div className="flex justify-between">
             <div>
               <div className="flex items-center gap-[21px] justify-between w-full sm:gap-6 sm:mb-4">
@@ -100,7 +100,7 @@ function ItemCard({ image, alt }) {
           </p>
         </div>
         <div className="flex items-center">
-          <p className="font-semibold text-[#0F0F10]">۱,۶۰۰,۰۰۰,۰۰۰</p>
+          <p className="font-semibold text-[#0F0F10] ">۱,۶۰۰,۰۰۰,۰۰۰</p>
           <span className="text-[#0F0F10] text[12px]">تومان</span>
         </div>
       </div>

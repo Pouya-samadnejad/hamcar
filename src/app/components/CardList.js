@@ -32,13 +32,13 @@ function CardList() {
           <ItemCard image={image.image} alt={image.alt} key={image.alt} />
         ))}
       </div>
-      <div className="w-full my-4 bg-gradient-to-r from-[#FFD600] to-[#FF9500] rounded-[18px] px-3">
-        <Image src={mobileBanner} alt="mobile banner" className="sm:hidden" />
+      <div className="w-full my-4 sm:bg-gradient-to-r from-[#FFD600] to-[#FF9500] rounded-[18px] px-3 ">
+        <Image src={mobileBanner} alt="mobile banner" className="sm:hidden " />
         <Image
           src={banner}
           height={144}
           alt="hamcar banner "
-          className="hidden sm:block px-3"
+          className="hidden sm:block "
         />
       </div>
       <div className="w-full px-2 lg:px-0 ">
