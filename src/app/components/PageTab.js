@@ -5,7 +5,7 @@ import { GoChevronLeft } from "react-icons/go";
 function PageTab() {
   return (
     <>
-      <div className="h-24"></div>
+      <div className="lg:h-24 h-10"></div>
       <div className="lg:flex items-center text-sm gap-3 pt-3 hidden ">
         <div className="flex">
           <FiHome className="w-[14px] h-[14px]" />
