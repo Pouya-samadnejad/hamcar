@@ -5,7 +5,7 @@ import { IoCaretUpOutline } from "react-icons/io5";
 
 function MobileDailyPrice() {
   return (
-    <div className="bg-[#F7F7F7] round-[14px] lg:hidden p-4 space-y-2 rounded-[14px] mx-2 relative pb-12">
+    <div className="bg-[#F7F7F7] round-[14px] lg:hidden p-4 space-y-2 rounded-[14px] mx-2 relative pb-12 mb-4">
       <div className="flex w-full items-center justify-between mb-7">
         <p className="text-sm font-semibold">قیمت روز مدیران خودرو</p>
         <Image src={modiranKhodro} alt="" />
